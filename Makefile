@@ -9,5 +9,5 @@ deploy: build
 	git init && \
 	git add -A && \
 	git commit -m 'deploy' && \
-	git push -f https://github.com/shishima123/lit-git-filezilla-compare.git main:gh-pages && \
+	git push -f https://github.com/shishima123/lit-git-filezilla-compare.git master:gh-pages && \
 	cd -

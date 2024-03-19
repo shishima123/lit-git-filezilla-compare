@@ -105,7 +105,7 @@ function compare() {
   }
 
   compareResultList.value = []
-  let lines = gitLog.value.split(/\r?\n|\r|\n/g)
+  let lines = gitLog.value.trim().split(/\r?\n|\r|\n/g)
   let countSuccess = 0
   let countError = 0
   lines.forEach(function (line) {
